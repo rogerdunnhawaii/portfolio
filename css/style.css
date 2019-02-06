@@ -5,7 +5,17 @@
  *
  * Made By MaterializeCSS.com
  */
-
+ div > ul {
+   . . .
+   visibility:hidden;
+   opacity:0;
+   transition:opacity 0.5s linear;
+ }
+ div:hover > ul {
+   visibility:visible;
+   opacity:1;
+ }
+ 
 nav ul a,
 nav .brand-logo {
   color: #444;
