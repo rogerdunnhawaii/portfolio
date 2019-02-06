@@ -15,7 +15,21 @@
    visibility:visible;
    opacity:1;
  }
- 
+
+ @media (min-width: 768px)
+section.download .tool-image-group img {
+    height: 128px;
+    width: 128px;
+}
+
+section.download .tool-image-group img {
+    height: 64px;
+    width: 64px;
+}
+.text-center {
+    text-align: center!important;
+}
+
 nav ul a,
 nav .brand-logo {
   color: #444;
