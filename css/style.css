@@ -16,13 +16,6 @@
    opacity:1;
  }
 
- @media (min-width: 768px) {
-
-.tool-image-group img {
-    height: 128px;
-    width: 128px;
-  }
-
 .tool-image-group img {
     height: 64px;
     width: 64px;
