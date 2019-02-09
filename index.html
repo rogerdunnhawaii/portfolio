@@ -1,302 +1,373 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <title>Roger Dunn's Portfolio</title>
 
-  <!-- CSS  -->
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
- <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <head>
 
-</head>
-<body>
-  <nav class="white" role="navigation">
-    <div class="nav-wrapper container">
-      <a id="logo-container" href="#" class="brand-logo">Roger Dunn's Portfolio</a>
-      <ul class="right hide-on-med-and-down">
-        <li><a href="https://rogerdunnhawaii.github.io/portfolio/resumes/Creddle_Resume_2.pdf">My Resume</a></li>
-        <li class='nav-item'>
-        <a class="nav-link js-scroll-trigger active" href="#projects">Projects</a>
-      </li>
-      </ul>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-      <ul id="nav-mobile" class="sidenav">
-        <li><a href="https://rogerdunnhawaii.github.io/portfolio/resumes/Creddle_Resume_2.pdf">My Resume</a></li>
-      </ul>
-      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-    </div>
-  </nav>
+    <title>Roger Dunn Portfolio</title>
 
-  <div id="index-banner" class="parallax-container">
-    <div class="section no-pad-bot">
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+
+    <!-- Plugin CSS -->
+    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/creative.min.css" rel="stylesheet">
+
+    <!--  Icons-->
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+
+  </head>
+
+  <body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <div class="container">
-        <br><br>
-        <h1 class="header center teal-text text-lighten-2">Roger Dunn - Web Developer</h1>
-        <div class="row center">
-          <h5 class="header col s12 light">A modern full-stack web developer based in Boston</h5>
-        </div>
-        <div class="row center">
-          <a href="https://rogerdunnhawaii.github.io/portfolio/resumes/Roger_Dunn_Creddle_Resume.pdf" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Download Resume</a>
-        </div>
-        <br><br>
-
-      </div>
-    </div>
-    <div class="parallax"><img src="background1.jpg" alt="Unsplashed background img 1"></div>
-  </div>
-
-
-  <section class="download bg-primary text-center" id="download">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-10 mx-auto pb-5">
-          <h2 class="section-heading">Here's what I'm working with.</h2>
-        </div>
-      </div>
-      <div class="row tool-image-group">
-        <div class="col-3 col-sm-2 col-md-3 col-lg-2 mb-5">
-          <img src="tool-logos/react.png" alt="React">
-          <div class="description">React</div>
-        </div>
-        <div class="col-3 col-sm-2 col-md-3 col-lg-2 mb-5">
-          <img src="tool-logos/javascript.png" alt="JavaScript">
-          <div class="description">JavaScript</div>
-        </div>
-        <div class="col-3 col-sm-2 col-md-3 col-lg-2 mb-5">
-          <img src="tool-logos/node.png" alt="Node">
-          <div class="description">Node</div>
-        </div>
-        <div class="col-3 col-sm-2 col-md-3 col-lg-2 mb-5">
-          <img src="tool-logos/mongodb.png" alt="MongoDB">
-          <div class="description">Mongo DB</div>
-        </div>
-        <div class="col-3 col-sm-2 col-md-3 col-lg-2 mb-5">
-          <img src="tool-logos/ruby.png" alt="Ruby">
-          <div class="description">Ruby</div>
-        </div>
-        <div class="col-3 col-sm-2 col-md-3 col-lg-2 mb-5">
-          <img src="tool-logos/rails.png" alt="Rails" >
-          <div class="description">Rails</div>
-        </div>
-        <div class="col-3 col-sm-2 col-md-3 col-lg-2 mb-5">
-          <img src="tool-logos/jquery.png" alt="jQuery" >
-          <div class="description">jQuery</div>
-        </div>
-      <!-- </div>
-      <div class="row my-5"> -->
-      <div class="col-3 col-sm-2 col-md-3 col-lg-2 mb-5">
-        <img src="tool-logos/sql.png" alt="PostreSQL" >
-        <div class="description">PostreSQL</div>
-      </div>
-        <div class="col-3 col-sm-2 col-md-3 col-lg-2 mb-5">
-          <img src="tool-logos/bootstrap.png" alt="Bootstrap" >
-          <div class="description">Bootstrap</div>
-        </div>
-        <div class="col-3 col-sm-2 col-md-3 col-lg-2 mb-5">
-          <img src="tool-logos/html5.png" alt="HTML 5" >
-          <div class="description">HTML 5</div>
-        </div>
-        <div class="col-3 col-sm-2 col-md-3 col-lg-2 mb-5">
-          <img src="tool-logos/css3.png" alt="CSS 3" >
-          <div class="description">CSS 3</div>
-        </div>
-        <!-- <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-5">
-          one
-        </div>
-        <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-5">
-          one
-        </div> -->
-      </div>
-    </div>
-  </section>
-
-        <!-- <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">flash_on</i></h2>
-            <h5 class="center">Skills</h5>
-
-            <div class="programming">
-              <h6>PROGRAMMING LANGUAGES</h6>
-              <ul>
-                  <li>JavaScript</li>
-                  <li>HTML</li>
-                  <li>CSS</li>
-                  <li>Flex</li>
-                  <li>Ruby</li>
-              </ul>
-            </div>
-
-            <div class="frameworks">
-              <h6>FRAMEWORKS</h6>
-              <ul>
-                <li>React</li>
-                <li>Rails</li>
-                <li>JQuery</li>
-                <li>Node</li>
-              </ul>
-            </div>
-
-              <ul>
-                <h6>VERSION CONTROL</h6>
-                <li>Git</li>
-                <li>GitHub</li>
-                <li>Heroku</li>
-              </ul>
-
-              <ul>
-                <h6>DATABASES</h6>
-                <li>SQL</li>
-                <li>PostgreSQL</li>
-              </ul>
-
-              <ul>
-                <h6>LANGUAGES</h6>
-                <li>Mandarin Chinese</li>
-              </ul>
-            </p>
-          </div>
-        </div> -->
-
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">group</i></h2>
-            <h5 class="center">About Me</h5>
-
-            <p class="light">
-              <b>Coder.</b>
-              <em>Engineer.</em> <i>Entrepreneur.</i>
-              <mark>Health buff.</mark> <ins>Curious.</ins> <sub>Traveler.</sub>
-              <sup>Stock Investor.</sup> MBA. Energy and Water Efficiency Consultant. Born and Raised in Hawaii. Educated at Northwestern and Taiwan University. NBA fan. Starcraft Terran player. Always up for a pickup game of soccer and volleyball. scuba diver</p>
-          </div>
-        </div>
-
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">settings</i></h2>
-            <h5 class="center">Contact Info</h5>
-
-            <p class="light">
-              <h6>Email:</h6>
-                <p>rogerdunn@gmail.com</p>
-              <h6>LinkedIn:</h6>
-                <p>https://www.linkedin.com/in/rogerdunnhawaii/</p>
-              <h6>GitHub:</h6>
-                <p>https://github.com/rogerdunnhawaii/</p>
-              <h6>City:</h6>
-                <p>Boston</p>
-            </p>
-          </div>
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">Roger Dunn</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#services">Technologies</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#portfolio">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="./resumes/Creddle_Resume_2.pdf" target="_blank">Resume</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+            </li>
+          </ul>
         </div>
       </div>
+    </nav>
 
-    </div>
-  </div>
-
-
-  <div class="parallax-container valign-wrapper">
-    <div class="section no-pad-bot">
+    <header class="masthead text-center text-white d-flex">
+      <!-- <div class="overlay"> -->
       <div class="container">
-        <div class="row center">
-          <h5 class="header col s12 light">Below are four projects I completed while taking General Assembly's Web Development Immersive 12-week course from Dec 2018 to March 2019</h5>
+        <div class="row overlay">
+          <div class="col-lg-10 header-text mx-auto">
+            <h1 class="text-uppercase">
+              <strong>Roger Dunn</strong>
+            </h1>
+            <h3>Full Stack Web Developer</h3>
+            <!-- <hr> -->
+            <img class="headshot" src="img/head-shot.png" alt="head shot">
+            <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a>
+          </div>
+          <div class="col-lg-10 mx-auto">
+            <div class="one-liner-background">
+              <p class="text-faded mb-5">Developer with a background in health, finance, solar, energy and water efficiency engineering, and more</p>
+            </div>
+          </div>
+        </div>
+        <div class="arrow bounce">
+    <a class="fa fa-arrow-down fa-2x js-scroll-trigger" href="#about"></a>
+  </div>
+      </div>
+
+    </header>
+
+    <section class="bg-primary about" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="mx-auto text-center">
+            <h2 class="section-heading text-white">About</h2>
+            <hr class="light my-4">
+            <h5 class="text-faded mb-4">
+              <p class="light">
+          <b>Coder.</b>
+          <em>Engineer.</em> <i>Entrepreneur.</i>
+          <mark>Health buff.</mark> <ins>Curious.</ins> <sub>Traveler.</sub>
+          <sup>Stock Investor.</sup> MBA. Energy and Water Efficiency Consultant. Born and Raised in Hawaii. Educated at Northwestern and Taiwan University. NBA fan. Starcraft Terran player. Always up for a pickup game of soccer and volleyball. scuba diver</p>
+            </h5>
+            <br>
+            <h5 class="text-faded mb-4">
+              In my previous career, I helped military bases, schools, businesses, and homeowners save money on energy and water. I also spent a few years learning medicine in medical school. I also spent many years selling, designing, and installing solar hot water and photovoltaics. I also started a snow removal and landscaping company. I have transitioned into programming because I believe I can apply tech to any industry/process and it offers me intellectual challenge and satisfaction.
+            </h5>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="parallax"><img src="background2.jpg" alt="Unsplashed background img 2"></div>
-  </div>
+    </section>
 
-  <div class="container">
-    <div class="section">
+    <section id="services">
+      <div class="container">
+        <div class="row" >
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading">Technologies</h2>
+            <hr class="my-4">
+          </div>
+        </div>
+        </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 col-12 text-center">
+            <div class="service-box mt-5 mx-auto">
+              <i class="devicon-bootstrap-plain colored"></i>
+              <p>Bootstrap</p>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 col-12 text-center">
+            <div class="service-box mt-5 mx-auto">
+              <i class="devicon-css3-plain colored"></i>
+              <p>CSS</p>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 col-12 text-center">
+            <div class="service-box mt-5 mx-auto">
+              <i class="devicon-express-original colored"></i>
+              <p>Express</p>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 col-12 text-center">
+            <div class="service-box mt-5 mx-auto">
+              <i class="devicon-git-plain colored"></i>
+              <p>Git</p>
+            </div>
+          </div>
+        <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 col-12 text-center">
+          <div class="service-box mt-5 mx-auto">
+            <i class="devicon-html5-plain colored"></i>
+            <p>HTML5</p>
+          </div>
+        </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 col-12 text-center">
+            <div class="service-box mt-5 mx-auto">
+              <i class="devicon-javascript-plain colored"></i>
+              <p>JavaScript</p>
+            </div>
+          </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 col-12 text-center">
+              <div class="service-box mt-5 mx-auto">
+                <i class="devicon-jquery-plain colored"></i>
+                <p>jQuery</p>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 col-12 text-center">
+              <div class="service-box mt-5 mx-auto">
+                <i class="devicon-nodejs-plain colored"></i>
+                <p>nodejs</p>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 col-12 text-center">
+              <div class="service-box mt-5 mx-auto">
+                <i class="devicon-postgresql-plain colored"></i>
+                <p>postgresql</p>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 col-12 text-center">
+              <div class="service-box mt-5 mx-auto">
+                <i class="devicon-react-original colored"></i>
+                <p>React</p>
+              </div>
+            </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 col-12 text-center">
+            <div class="service-box mt-5 mx-auto">
+              <i class="devicon-ruby-plain colored"></i>
+              <p>Ruby</p>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 col-12 text-center">
+            <div class="service-box mt-5 mx-auto">
+              <i class="devicon-rails-plain colored"></i>
+              <p>Ruby on Rails</p>
+            </div>
+          </div>
+        </div>
+        </div>
+    </section>
+
+<section class="p-0" id="portfolio">
 
       <div class="row">
-        <div class="col s12 center">
-          <h3><i class="mdi-content-send brown-text"></i></h3>
-          <h4 id="projects">Projects</h4>
-          <p class="left-align light">
-            <h5>Tic Tac Toe</h5>
-            <ol>
-              <li>>Include links to
-                live site: https://rogerdunnhawaii.github.io/tictactoe-client/
-                front-end: https://github.com/rogerdunnhawaii/tictactoe-client
-                back-end repos: https://aqueous-atoll-85096.herokuapp.com
-              </li>
-              <li>Describe both the functionality of the site as well as what technologies you used to build it.
-              <b> I used HTML CSS and JavaScript to build this website. I created functionality to allow a user to sign-in, sign-up, change password, sign out and play a game and see past games won.</b>
-              </li>
-              <li>Talk about your process for building this app.
-              <b>I spent a few days building the front-end and the game logic.  I focused first on how to display either an X or O and then if it would result in a win or a tie and then saving the games to the API (backend).  Then I spent time making the front end look nice, and lastly, developed functionality so you can view past games you won.</b>
-              </li>
-              <li> If you have a blog post that goes into detail for each project, link to that post.</li>
-              <li>As you add your GA projects to your portfolio, make sure they are user-friendly to an unacquainted visitor.</li>
-              <li>The home page should explain the site’s functionality</li>
-              <li>Random users might not want to sign up/sign in. You should either put dummy credentials on the homepage that they can use (and explain that), or make sure they can interact with the site without signing up.</li>
-              <li>Clean up the data you’ve entered on the site as you were testing it</li>
-            </ol>
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading">Projects</h2>
+          <hr class="my-4">
+        </div>
+      </div>
+      <div class="projects container-fluid">
+
+      <div class="eachproject topproject project1 row justify-content-between">
+        <div class="col-lg-4 col-md-6 col-sm-12 img-container">
+          <img class="project-img" style='height: 300px;width: 300px;' src="./img/snowremoval.png" alt="Snow Removal Project">
+        </div>
+          <div class="col-lg-8 col-md-6 col-sm-12 snowremoval">
+              <h3 class="card-title">Snow Removal App</h3>
+              <p class="card-text">
+                A snow removal website that matches customers with workers so that snow can be cleared from sidewalks, driveways, stairs and more. The front-end
+                utilizes the Heroku API, saves snow removal jobs in a Ruby on Rails API.
+              </p>
+              <div class="row">
+                <div class="col">
+              <h5>Future Features:</h5>
+              <ul>
+                <li>Image Upload</li>
+                <li>Different logins for Customers, Admin, Workers</li>
+                <li>Google Maps API integration</li>
+              </ul>
+            </div>
+            <div class="col">
+              <a href="https://rogerdunnhawaii.github.io/snow-removal-app-client/" target="_blank" class="btn btn-primary">Go to the website</a>
+              <br>
+              <br>
+              <a href="https://github.com/rogerdunnhawaii/snow-removal-app-client" target="_blank" class="btn btn-primary">View repo on github</a>
+            </div>
+          </div>
+          </div>
+        </div>
+
+        <div class="eachproject topproject project1 row justify-content-between">
+          <div class="col-lg-4 col-md-6 col-sm-12  img-container">
+            <img class="project-img" style='height: 300px;width: 300px;' src="./img/tic-tac-toe.png" alt="Tic Tac Toe Project">
+          </div>
+          <div class="col-lg-8 col-md-6 col-sm-12">
+              <h3 class="card-title">Tic Tac Toe</h3>
+              <p class="card-text">
+                A Tic Tac Toe game. Made with JavaScript and CSS/HTML.
+              </p>
+              <div class="row">
+                <div class="col">
+              <h5>Future Features:</h5>
+              <ul>
+                <li>Multiple difficulty levels</li>
+                <li>Save games</li>
+                <li>PvP</li>
+              </ul>
+            </div>
+            <div class="col">
+              <a href="https://rogerdunnhawaii.github.io/tictactoe-client/" target="_blank" class="btn btn-primary">Go to the website</a>
+              <br>
+              <br>
+              <a href="https://github.com/rogerdunnhawaii/tictactoe-client" target="_blank" class="btn btn-primary">View repo on github</a>
+            </div>
+          </div>
+          </div>
+        </div>
+
+      <div class="eachproject topproject project1 row justify-content-between">
+        <div class="col-lg-4 col-md-6 col-sm-12  img-container">
+          <img class="project-img" src="#" alt="Project 3">
+        </div>
+        <div class="col-lg-8 col-md-6 col-sm-12">
+            <h3 class="card-title">Project 3</h3>
+            <p class="card-text">
+              Project 3
+            </p>
+            <div class="row">
+              <div class="col">
+                <h5>Future Features:</h5>
+                <ul>
+                  <li>Feature 1</li>
+                  <li>Feature 2</li>
+                  <li>Feature 3</li>
+                </ul>
+              </div>
+              <div class="col">
+                <a href="#" target="_blank" class="btn btn-primary">Go to the site</a>
+                <br>
+                <br>
+                <a href="#" target="_blank" class="btn btn-primary">View client repo</a>
+                <br>
+                <br>
+                <a href="#" target="_blank" class="btn btn-primary">View api repo</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+    <div class="eachproject topproject project1 row justify-content-between">
+      <div class="col-lg-4 col-md-6 col-sm-12 img-container">
+        <img class="project-img" src="#" alt="Project 4">
+      </div>
+        <div class="col-lg-8 col-md-6 col-sm-12">
+          <h3 class="card-title">Project 4</h3>
+          <p class="card-text">
+            Project 4 info
           </p>
+          <div class="row">
+            <div class="col">
+              <h5>Future Features:</h5>
+              <ul>
+                <li>Feature 1</li>
+                <li>Feature 2</li>
+                <li>Feature 3</li>
+              </ul>
+            </div>
+            <div class="col">
+              <a href="#" target="_blank" class="btn btn-primary">Go to the site</a>
+              <br>
+              <br>
+              <a href="#" target="_blank" class="btn btn-primary">View client repo</a>
+              <br>
+              <br>
+              <a href="#" target="_blank" class="btn btn-primary">View api repo</a>
+            </div>
+          </div>
         </div>
       </div>
+
     </div>
-  </div>
 
+    </section>
 
-  <div class="parallax-container valign-wrapper">
-    <div class="section no-pad-bot">
+    <section id="contact">
       <div class="container">
-        <div class="row center">
-          <h5 class="header col s12 light">If you have scrolled to this point, congratulations.  Here's another nice picture to look at :)</h5>
+        <div class="row">
+          <div class="col-lg-8 mx-auto contact text-center">
+            <h2 class="section-heading">Let's get in touch!</h2>
+            <hr class="my-4">
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-4 text-center contact">
+            <a href="https://github.com/RogerDunnHawaii/" target="_blank">
+              <img src="./img/github-icon.png" class="icons" alt="github">
+            </a>
+          </div>
+          <div class="col-lg-4 text-center contact">
+            <i class="fas fa-envelope fa-3x mb-3 sr-contact-2"></i>
+            <p>
+              <a href="mailto:RogerDunn@gmail.com" target="_blank">RogerDunn@gmail.com</a>
+            </p>
+          </div>
+          <div class="col-lg-4 text-center contact">
+            <a href="https://www.linkedin.com/in/RogerDunnHawaii/" target="_blank">
+              <img src="./img/linkedin-icon.png" class="icons" alt="linkedin">
+            </a>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="parallax"><img src="background3.jpg" alt="Unsplashed background img 3"></div>
-  </div>
+    </section>
 
-  <footer class="page-footer teal">
-    <div class="container">
-      <div class="row">
-        <div class="col l6 s12">
-          <h5 class="white-text">More about me</h5>
-          <p class="grey-text text-lighten-4">Another opportunity to talk about myself and market myself. If you have landscaping or snow removal needs, please check out www.greaterbostonsnowremoval.com or www.greaterbostonlandscapingservices.com </p>
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
+    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
 
-        </div>
-        <div class="col l3 s12">
-          <h5 class="white-text">Settings</h5>
-          <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
-          </ul>
-        </div>
-        <div class="col l3 s12">
-          <h5 class="white-text">Connect</h5>
-          <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <div class="footer-copyright">
-      <div class="container">
-      Made by <a class="brown-text text-lighten-3" href="mailto:rogerdunn@gmail.com">Me</a>
-      </div>
-    </div>
-  </footer>
-
-
-  <!--  Scripts-->
-  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-  <script src="js/materialize.js"></script>
-  <script src="js/init.js"></script>
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
+    <!-- Custom scripts for this template -->
+    <script src="js/creative.min.js"></script>
   </body>
+
 </html>
