@@ -6,6 +6,16 @@
  * Made By MaterializeCSS.com
  */
 
+.bounce {
+  opacity:0.5;
+}
+strong:hover {
+  color:red;
+}
+
+h3:hover {
+  color: blue;
+}
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
